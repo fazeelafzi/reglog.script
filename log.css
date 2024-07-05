@@ -1,0 +1,39 @@
+
+.form-signup{
+    max-width:30rem;
+    margin: 0 auto;
+    align-items: center;  
+    display: block;
+    justify-content: center;
+    padding:15px;
+    border-radius:8rem;
+    background-color: hsla(0, 0%, 100%, .01);
+    border: 2px solid hsla(19, 56%, 70%, 0.7);
+    backdrop-filter: blur(16px);
+  
+}
+body{
+    padding-top: 15rem;
+    background-image: url(./1465999-2160-x-1440-hd-wallpaper-2560x1440-iphone.jpg);
+        
+}
+.form-group input{
+    border-radius: 1rem;
+}
+.form-group button{
+    border-radius: 1rem;
+    border: none;
+    width: 10rem;
+    background: rgb(125, 101, 83);
+    background: linear-gradient(0deg, rgb(7, 5, 2) 0%, rgb(236, 160, 85) 100%);
+}
+.input-group{
+    position: absolute;
+    margin-top: 11px;
+}
+.icon .form-control{
+    padding-left:3rem;
+}
+.logins .form-control{
+    
+}

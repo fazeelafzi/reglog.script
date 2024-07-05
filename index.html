@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <form action="" onsubmit="validate(event)" class="form-signup">
+                <h2>Register</h2>
+                <p>Create your account it's free only take a minute.</p>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="image">
+                                <img src="./c0749b7cc401421662ae901ec8f9f660.jpg" class="rounded-circle mx-auto d-block"
+                                    height="60rem" width="60rem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" class="form-control" placeholder="First name" id="firstname">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <input type="number" class="form-control" id="age" name="Age" placeholder="Age">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input class="form-control" placeholder="DOB" class="textbox-n" type="text"
+                                onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="add" name="Address" placeholder="Address">
+                </div>
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                        </div>
+                        <input type="number" class="form-control" id="mobile" name="Mobile" placeholder="Mobile">
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-envelope-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" name="password"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="confirmpassword" name="password"
+                                placeholder="Confirm Password">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col text-center">
+                            <input class="btn btn-primary" type="submit" value="Submit" class="form-control">
+                            <input class="btn btn-secondary" type="reset" value="Reset" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./reg.js"></script>
+</body>
+
+</html>

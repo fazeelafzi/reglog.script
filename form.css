@@ -1,0 +1,40 @@
+.form-signup {
+  max-width: 30rem;
+  margin: 0 auto;
+  align-items: center;
+  display: block;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+p {
+  text-align: center;
+  color: whitesmoke;
+}
+body {
+  padding-top: 10rem;
+  background: linear-gradient(
+    90deg,
+    rgb(212, 224, 225) 0%,
+    rgb(136, 136, 177) 35%,
+    rgb(136, 116, 141) 100%
+  );
+}
+.form-signup {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(189, 189, 192) 0%,
+    rgb(114, 181, 200) 39%,
+    rgb(97, 54, 132) 72%
+  );
+  padding: 15px;
+  border-radius: 1rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
